@@ -6,13 +6,7 @@ function Home(props) {
   console.log(props.data)
     return (
         <div>
-            <div className="HEAD_ATC">
-                <h1>Redux Shop</h1>
-                <div className="cart-box">
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.0_2wKuNKX3vl2JXO9kdXHQAAAA%26pid%3DApi&f=1" alt="CART"/>
-                    <span>{props.data.length}</span>
-                </div>
-            </div>
+           
             <div className="gallery">
       <div className="content">
         <img src={shoes} alt="jutta"/>
