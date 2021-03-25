@@ -6,6 +6,7 @@ const initialStates ={
 }
 
 export default function cardItems(state=[],action){
+    console.log("herna ko lagi",action.data)
     switch(action.type){
         case ADD_TO_CART:
             // console.log(action)
