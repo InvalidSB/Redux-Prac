@@ -19,7 +19,7 @@ function CartDatapage(props) {
                 </div>
                 <div className="container-wii">
                 {
-                        Data.map(i=>
+                        Data.map((i)=>
                         <div className="one-item">
                         <h1>{i.cardData.name} </h1>
                         <h2>{i.cardData.price}</h2>
