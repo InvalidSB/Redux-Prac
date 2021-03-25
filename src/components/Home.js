@@ -3,7 +3,7 @@ import shoes from './images/shoes.png';
 import earphone from './images/earphone.png';
 import watch from './images/watch.png';
 function Home(props) {
-  console.log(props.data)
+  // console.log(props)
     return (
         <div>
            
@@ -20,7 +20,7 @@ function Home(props) {
           <li><i className="fa fa-star" aria-hidden="true"></i></li>
           <li><i className="fa fa-star" aria-hidden="true"></i></li>
         </ul>
-        <button class="buy-1" onClick={()=>props.addTocartHandler({price:1000,name:"Shoes"})}>Add to Cart</button>
+        <button class="buy-1" onClick={()=>props.addTocartHandler({price:"$100.00",name:"Shoes"})}>Add to Cart</button>
       </div>
       <div class="content">
         <img src={earphone} alt="Earphone"/>
@@ -35,7 +35,7 @@ function Home(props) {
           <li><i className="fa fa-star" aria-hidden="true"></i></li>
         </ul>
         {/* <button className="buy-2">Add to Cart</button> */}
-        <button class="buy-2" onClick={()=>props.addTocartHandler({price:1000,name:"Shoes"})}>Add to Cart</button>
+        <button class="buy-2" onClick={()=>props.addTocartHandler({price:"$40.00",name:"Earphone"})}>Add to Cart</button>
 
       </div>
      
@@ -51,7 +51,7 @@ function Home(props) {
           <li><i className="fa fa-star" aria-hidden="true"></i></li>
           <li><i className="fa fa-star" aria-hidden="true"></i></li>
         </ul>
-        <button class="buy-4" onClick={()=>props.addTocartHandler({price:1000,name:"Shoes"})}>Add to Cart</button>
+        <button class="buy-4" onClick={()=>props.addTocartHandler({price:'$1370.84',name:"i-Phone"})}>Add to Cart</button>
         {/* <button className="buy-4">Add to Cart</button> */}
       </div>
       <div className="content">
@@ -67,7 +67,7 @@ function Home(props) {
           <li><i className="fa fa-star" aria-hidden="true"></i></li>
         </ul>
         {/* <button className="buy-3">Add to Cart</button> */}
-        <button class="buy-3" onClick={()=>props.addTocartHandler({price:1000,name:"Shoes"})}>Add to Cart</button>
+        <button class="buy-3" onClick={()=>props.addTocartHandler({price:"$70.84",name:"Watch"})}>Add to Cart</button>
 
       </div>
     </div>
